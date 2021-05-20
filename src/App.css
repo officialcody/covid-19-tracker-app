@@ -1,0 +1,129 @@
+.App {
+  background-color: rgba(128, 128, 128, 0.068);
+}
+
+/* common styles */
+.flex__col {
+  display       : flex;
+  flex-direction: column
+}
+
+.heading {
+  font-size  : 30px;
+  font-weight: 700;
+}
+
+.color__olive {
+  color: rgb(155, 155, 8);
+}
+
+.w__100 {
+  width: 100%;
+}
+
+.m__20 {
+  margin-top: 20px;
+}
+
+.h__100 {
+  min-height: 80px;
+}
+
+.text__end {
+  text-align: right;
+
+}
+
+/* map outer */
+.container__white {
+  border-radius   : 10px;
+  box-shadow      : 10px 10px 50px 10px rgba(182, 180, 180, 0.295);
+  background-color: #fff;
+  padding         : 20px;
+  margin-top      : 20px;
+  border          : 1px solid rgba(150, 150, 150, 0.596);
+}
+
+/* india map styles */
+
+/* icon styles */
+.icon__outer {
+  margin-top      : 10px;
+  height          : 50px;
+  width           : 50px;
+  border-radius   : 10px;
+  background-color: black;
+  display         : flex;
+  align-items     : center;
+  justify-content : center;
+}
+
+/* states table styles */
+
+.states__table th {
+  color        : rgb(0, 0, 0) !important;
+  padding      : 8px !important;
+  background   : none !important;
+  border-bottom: none !important;
+}
+
+.states__table td {
+  border-bottom: none !important;
+  padding      : 8px !important;
+  font-weight  : 500;
+}
+
+/* boxes styles */
+
+.boxes {
+  font-weight  : 500;
+  border-radius: 5px;
+
+  padding: 0 10px;
+}
+
+.color__red {
+  color: red;
+}
+
+.bg__red {
+  background-color: rgba(241, 163, 154, 0.459);
+}
+
+.color__blue {
+  color: rgba(45, 95, 204, 0.952);
+}
+
+.bg__blue {
+  background-color: rgba(45, 95, 204, 0.151);
+}
+
+.color__green {
+  color: green;
+}
+
+.bg__green {
+  background-color: rgba(31, 189, 31, 0.219);
+}
+
+.color__grey {
+  color: grey;
+}
+
+.bg__grey {
+  background-color: rgba(128, 128, 128, 0.123);
+}
+
+@media only screen and (max-width:768px) {
+  .App {
+    text-align: center;
+  }
+
+  .ant-col-md-22 {
+    margin: auto !important;
+  }
+}
+
+.jvectormap-tip {
+  display: nones;
+}
